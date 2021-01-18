@@ -28,6 +28,7 @@ class App extends Component {
       monster.name.toLowerCase().includes(searchField.toLocaleLowerCase()));
     return (
       <div className="App">
+        <h1> Monstruos </h1>
         < SearchBox
           placeholder='search monster'
           handleChange={this.handleChange}
